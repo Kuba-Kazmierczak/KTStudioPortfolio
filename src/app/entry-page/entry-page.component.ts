@@ -9,6 +9,7 @@ export class EntryPageComponent {
   links = [
     {}
   ];
+  constructor(public route: ActivatedRoute) {}
 
   
   

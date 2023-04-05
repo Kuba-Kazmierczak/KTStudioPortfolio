@@ -1,13 +1,39 @@
-.entry-page{
-    margin: 20% auto;
+
+/* Header section */
+#header {
+    padding: 20px;
+    background-color: rgb(233, 226, 226);
+    justify-content: center;
 }
-#entry-page {
-    height: 929px;
-    text-align: center;
-    position: relative;
+.logo {
+    margin-top: 10px;
 }
 
-.row {
-    height: auto;
-    width: auto;
+/* Main Section */
+#main {
+    position: absolute;
+    top: 18em;
+    width:100%;
+    text-align: center;
 }
+.entry-page {
+    margin: 50px auto;
+  }
+/* Footer Section */
+#footer {
+    position: absolute;
+    background-color:  rgb(233, 226, 226);
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;        /* Footer height */
+}
+
+.copyright {
+    margin-top: 8px;
+}
+
+
+
+
+

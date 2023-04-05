@@ -14,6 +14,7 @@
     position: absolute;
     top: 18em;
     width:100%;
+    text-align: center;
 }
 .entry-page {
     margin: 50px auto;

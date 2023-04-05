@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -8,7 +8,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class NavbarComponent {
   links = [
-    { title: 'Work', fragment: 'work' },
+    { title: 'Work', fragment: 'Work' },
     { title: 'Animation', fragment: 'Animation' },
     { title: '360', fragment: '360' },
     { title: 'About', fragment: 'About' },

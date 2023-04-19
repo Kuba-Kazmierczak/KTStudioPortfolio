@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Lightbox } from 'ngx-lightbox'; 
+
 
 @Component({
   selector: 'app-work',
@@ -6,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./work.component.css']
 })
 export class WorkComponent {
+  
+  
 
 }

@@ -11,10 +11,13 @@ import { AnimationComponent } from './animation/animation.component';
 import { PanoramaComponent } from './panorama/panorama.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { LightboxModule } from 'ngx-lightbox';
+import { LightboxGalleryComponent } from './lightbox-gallery/lightbox-gallery.component';
+
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, EntryPageComponent, WorkComponent, AnimationComponent, PanoramaComponent, AboutComponent, ContactComponent],
-  imports: [BrowserModule, AppRoutingModule, NgbModule],
+  declarations: [AppComponent, NavbarComponent, EntryPageComponent, WorkComponent, AnimationComponent, PanoramaComponent, AboutComponent, ContactComponent, LightboxGalleryComponent],
+  imports: [BrowserModule, AppRoutingModule, NgbModule, LightboxModule],
   providers: [],
   bootstrap: [AppComponent]
 })
